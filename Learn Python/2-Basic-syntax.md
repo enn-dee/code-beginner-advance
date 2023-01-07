@@ -18,3 +18,24 @@ for name in names:    print(name)
 In this example, the code in the block *(print(name))* will be executed once **for** each element in the names list. The indentation indicates that the code in the block belongs to the for loop.
 It's important to be consistent with your indentation in Python, as the interpreter will raise an error if the indentation is not correct. It is recommended to use four spaces for each level of indentation.
 I hope this helps to clarify how indentation is used in Python! Let me know if you have any questions.
+## Multi-Line Statements
+You can use the '\' character to continue a statement on the next line, or use parentheses to define a multi-line statement. You can also use triple quotation marks to define a multi-line string.
+
+For example, you can use the '\' character to write a long 'print' statement on multiple lines:
+```python
+print("This is a very long string that needs to be \
+split over multiple lines because it is too long to \
+fit on one line.")
+```
+You can also use parentheses to define a multi-line statement:
+
+```python
+x = (1 + 2 + 3 + 4 +
+     5 + 6 + 7 + 8)
+```
+Finally, you can use triple quotation marks to define a multi-line string:
+```python
+x = """This is a
+multi-line
+string"""
+```
