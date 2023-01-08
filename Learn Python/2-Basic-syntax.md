@@ -39,3 +39,22 @@ x = """This is a
 multi-line
 string"""
 ```
+## Comments
+You can use comments to add notes or explanations to your code. Comments do not get executed when the code is run, and are only there to help make the code easier to understand.
+
+There are two ways to write comments in Python:
+1. *Single line comments*:
+These start with a '#' symbol and extend to the end of the line. Anything after the '#' is considered a comment. For example:
+```python
+# This is a single line comment
+x = 5 # This is also a single line comment
+```
+2. *Multi-line comments*:
+These are used for commenting out longer blocks of code or for adding multi-line comments. They start with `"""` and end with `"""`.  Anything between these symbols is considered a comment. For example:
+```python
+"""
+This is a
+multi-line comment
+"""
+```
+It is a good practice to add comments to your code, especially in large programs, to help other people (or future you!) understand what the code is doing.
