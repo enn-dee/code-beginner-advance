@@ -28,3 +28,12 @@ numbers = (1, 2, 3)
 is_student = True
 is_employee = False
 ```
+7. **Sets** : unordered collection of unique elements.
+```python
+fruits = {'apple', 'banana', 'orange'}
+```
+8. **None**: used to represent the absence of a value or a null value.
+```python
+x = None
+```
+*These are the basic data types in python and you can use them to store different types of data in your program.*
