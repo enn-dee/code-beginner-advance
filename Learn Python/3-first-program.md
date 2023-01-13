@@ -17,4 +17,4 @@ This will execute the code and you should see the output "Hello, World!" printed
  <br/>
 You also can run it on an *ide*, an integrated development environment that provides debugging and editing functionality. This way you can see the output, fix errors and work more efficiently on your Python projects. <br/>
 
-[<-Prev](https://github.com/enn-dee/program-beginner-advance/blob/main/Learn%20Python/2-basic-concepts.md)&nbsp; &nbsp;&nbsp;&nbsp;  [Next ->]([http://www.google.com](https://github.com/enn-dee/program-beginner-advance/blob/main/Learn%20Python/4-variables.md))
+[<-Prev](https://github.com/enn-dee/program-beginner-advance/blob/main/Learn%20Python/2-basic-concepts.md)&nbsp; &nbsp;&nbsp;&nbsp;   [Next ->](http://www.google.com](https://github.com/enn-dee/program-beginner-advance/blob/main/Learn%20Python/4-variables.md))
