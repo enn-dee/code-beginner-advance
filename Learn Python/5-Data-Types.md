@@ -37,3 +37,4 @@ fruits = {'apple', 'banana', 'orange'}
 x = None
 ```
 *These are the basic data types in python and you can use them to store different types of data in your program.*
+## Data Type Conversion (Type Casting)
