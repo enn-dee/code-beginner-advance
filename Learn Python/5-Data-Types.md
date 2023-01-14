@@ -11,7 +11,7 @@ y = 3.14
 name = "Alice"
 address = 'New York'
 ```
-3. Lists: used to store a collection of items. Lists are enclosed in square brackets and items are separated by commas.
+3. **Lists**: used to store a collection of items. Lists are enclosed in square brackets and items are separated by commas.
 ```python
 fruits = ['apple', 'banana', 'orange']
 ```
