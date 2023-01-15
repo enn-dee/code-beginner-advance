@@ -11,7 +11,7 @@ y = 3.14
 name = "Alice"
 address = 'New York'
 ```
-3. Lists: used to store a collection of items. Lists are enclosed in square brackets and items are separated by commas.
+3. **Lists**: used to store a collection of items. Lists are enclosed in square brackets and items are separated by commas.
 ```python
 fruits = ['apple', 'banana', 'orange']
 ```
@@ -37,3 +37,62 @@ fruits = {'apple', 'banana', 'orange'}
 x = None
 ```
 *These are the basic data types in python and you can use them to store different types of data in your program.*
+## Data Type Conversion (Type Casting)
+Python has several built-in functions for converting data types. Here are a few examples:
+
+1. **Converting an integer to a string**:
+```python
+x = 5
+y = str(x)
+print(y) # Output: "5"
+```
+2. **Converting a string to an integer**:
+```python
+x = "5"
+y = int(x)
+print(y) # Output: 5
+```
+3. **Converting a float to an integer** :
+```python
+x = 5.5
+y = int(x)
+print(y) # Output: 5
+```
+4 **Converting a list to a tuple**:
+```python
+x = [1, 2, 3]
+y = tuple(x)
+print(y) # Output: (1, 2, 3)
+```
+5. **Converting a tuple to a list** :
+```python x = (1, 2, 3)
+y = list(x)
+print(y) # Output: [1, 2, 3]
+```
+6. **Converting a string to a float** :
+```python x = "5.5"
+y = float(x)
+print(y) # Output: 5.5 
+```
+7. **Converting a dictionary to a string** :
+```python x = {'name': 'John', 'age': 30}
+y = str(x)
+print(y) # Output: "{'name': 'John', 'age': 30}"
+```
+8. **Converting a string to a dictionary** :
+```python x = "{'name': 'John', 'age': 30}"
+y = eval(x)
+print(y) # Output: {'name': 'John', 'age': 30}
+```
+9. **Converting a set to a list** :
+```python x = {1, 2, 3}
+y = list(x)
+print(y) # Output: [1, 2, 3]
+```
+10. **Converting a list to a set** :
+```python x = [1, 2, 3, 2, 1]
+y = set(x)
+print(y) # Output: {1, 2, 3}
+```
+
+It's worth noting that some of these conversions may result in data loss, such as the loss of decimal precision when converting a float to an integer
